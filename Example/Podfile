@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'SEPhotoPuzzle_Example' do
+  pod 'SEPhotoPuzzle', :path => '../'
+
+  target 'SEPhotoPuzzle_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
