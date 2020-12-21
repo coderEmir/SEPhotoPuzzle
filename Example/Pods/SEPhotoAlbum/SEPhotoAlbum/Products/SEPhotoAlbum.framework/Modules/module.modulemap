@@ -1,0 +1,4 @@
+framework module SEPhotoAlbum {
+  header "SEPhotoAlbum-Swift.h"
+  requires objc
+}

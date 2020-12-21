@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2BB2ED69D05EC816A91BD4FB /* Pods_SEPhotoPuzzle_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F81E498083F8A1A14F71F96 /* Pods_SEPhotoPuzzle_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -23,6 +22,7 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		A0CCD03F259040BD0005C096 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CCD03E259040BD0005C096 /* File.swift */; };
 		D17333AD8657E71681D50F7C /* Pods_SEPhotoPuzzle_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD2F88BD95C64DC6E18FF11A /* Pods_SEPhotoPuzzle_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,10 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		082BA434821FF229F0821C41 /* SEPhotoPuzzle.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SEPhotoPuzzle.podspec; path = ../SEPhotoPuzzle.podspec; sourceTree = "<group>"; };
-		0F81E498083F8A1A14F71F96 /* Pods_SEPhotoPuzzle_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SEPhotoPuzzle_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3091842ED7B8DBA903D50E45 /* Pods-SEPhotoPuzzle_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SEPhotoPuzzle_Tests.release.xcconfig"; path = "Target Support Files/Pods-SEPhotoPuzzle_Tests/Pods-SEPhotoPuzzle_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		4018268662FA728E4F68A61A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		082BA434821FF229F0821C41 /* SEPhotoPuzzle.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SEPhotoPuzzle.podspec; path = ../SEPhotoPuzzle.podspec; sourceTree = "<group>"; };
+		4018268662FA728E4F68A61A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* SEPhotoPuzzle_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SEPhotoPuzzle_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -60,10 +58,11 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		626FF038B6FDC88BFBA199A4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		626FF038B6FDC88BFBA199A4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A3B5BADD260BFA1E6BC9EDCB /* Pods-SEPhotoPuzzle_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SEPhotoPuzzle_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SEPhotoPuzzle_Tests/Pods-SEPhotoPuzzle_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		A0CCD03D259040BD0005C096 /* SEPhotoPuzzle_Example-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SEPhotoPuzzle_Example-Bridging-Header.h"; sourceTree = "<group>"; };
+		A0CCD03E259040BD0005C096 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		CD2F88BD95C64DC6E18FF11A /* Pods_SEPhotoPuzzle_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SEPhotoPuzzle_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE46181F2787018A6B4C2988 /* Pods-SEPhotoPuzzle_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SEPhotoPuzzle_Example.release.xcconfig"; path = "Target Support Files/Pods-SEPhotoPuzzle_Example/Pods-SEPhotoPuzzle_Example.release.xcconfig"; sourceTree = "<group>"; };
 		E96BC9238CE8359B1FE57537 /* Pods-SEPhotoPuzzle_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SEPhotoPuzzle_Example.debug.xcconfig"; path = "Target Support Files/Pods-SEPhotoPuzzle_Example/Pods-SEPhotoPuzzle_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -88,7 +87,6 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				2BB2ED69D05EC816A91BD4FB /* Pods_SEPhotoPuzzle_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,10 +98,7 @@
 			children = (
 				E96BC9238CE8359B1FE57537 /* Pods-SEPhotoPuzzle_Example.debug.xcconfig */,
 				DE46181F2787018A6B4C2988 /* Pods-SEPhotoPuzzle_Example.release.xcconfig */,
-				A3B5BADD260BFA1E6BC9EDCB /* Pods-SEPhotoPuzzle_Tests.debug.xcconfig */,
-				3091842ED7B8DBA903D50E45 /* Pods-SEPhotoPuzzle_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -136,7 +131,6 @@
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
 				CD2F88BD95C64DC6E18FF11A /* Pods_SEPhotoPuzzle_Example.framework */,
-				0F81E498083F8A1A14F71F96 /* Pods_SEPhotoPuzzle_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -152,6 +146,8 @@
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
+				A0CCD03E259040BD0005C096 /* File.swift */,
+				A0CCD03D259040BD0005C096 /* SEPhotoPuzzle_Example-Bridging-Header.h */,
 			);
 			name = "Example for SEPhotoPuzzle";
 			path = SEPhotoPuzzle;
@@ -208,7 +204,8 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				D114D8D51C8B25102372D075 /* [CP] Embed Pods Frameworks */,
+				C61E0BC523D6AA62A8BE9F70 /* [CP] Copy Pods Resources */,
+				D4DB7EBC0397D94AB93A462E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -223,7 +220,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "SEPhotoPuzzle_Tests" */;
 			buildPhases = (
-				47ADE8E022A6CAE9281EC2F7 /* [CP] Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
@@ -248,6 +244,10 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = seeEmil;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 4RTA9R7QH9;
+						LastSwiftMigration = 1220;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +258,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -317,29 +318,25 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		47ADE8E022A6CAE9281EC2F7 /* [CP] Check Pods Manifest.lock */ = {
+		C61E0BC523D6AA62A8BE9F70 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
+				"${PODS_ROOT}/Target Support Files/Pods-SEPhotoPuzzle_Example/Pods-SEPhotoPuzzle_Example-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/SEPhotoAlbum/SEPhotoAlbum.bundle",
 			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SEPhotoPuzzle_Tests-checkManifestLockResult.txt",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SEPhotoAlbum.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SEPhotoPuzzle_Example/Pods-SEPhotoPuzzle_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D114D8D51C8B25102372D075 /* [CP] Embed Pods Frameworks */ = {
+		D4DB7EBC0397D94AB93A462E /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -365,6 +362,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* SEAppDelegate.m in Sources */,
+				A0CCD03F259040BD0005C096 /* File.swift in Sources */,
 				6003F5A7195388D20070C39A /* SEViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
@@ -494,12 +492,17 @@
 			baseConfigurationReference = E96BC9238CE8359B1FE57537 /* Pods-SEPhotoPuzzle_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 4RTA9R7QH9;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SEPhotoPuzzle/SEPhotoPuzzle-Prefix.pch";
 				INFOPLIST_FILE = "SEPhotoPuzzle/SEPhotoPuzzle-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SEPhotoPuzzle/SEPhotoPuzzle_Example-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
 			};
@@ -510,12 +513,16 @@
 			baseConfigurationReference = DE46181F2787018A6B4C2988 /* Pods-SEPhotoPuzzle_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 4RTA9R7QH9;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SEPhotoPuzzle/SEPhotoPuzzle-Prefix.pch";
 				INFOPLIST_FILE = "SEPhotoPuzzle/SEPhotoPuzzle-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SEPhotoPuzzle/SEPhotoPuzzle_Example-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
 			};
@@ -523,8 +530,8 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A3B5BADD260BFA1E6BC9EDCB /* Pods-SEPhotoPuzzle_Tests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
@@ -548,8 +555,8 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3091842ED7B8DBA903D50E45 /* Pods-SEPhotoPuzzle_Tests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",

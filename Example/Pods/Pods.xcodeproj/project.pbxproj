@@ -1,0 +1,1153 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		6A8443EB837FC23A4D170EFDAE889024 /* SEPhotoAlbum */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 2542A27648DC53EAB9B7A75D1AC6C109 /* Build configuration list for PBXAggregateTarget "SEPhotoAlbum" */;
+			buildPhases = (
+			);
+			dependencies = (
+				AA4D7D77455AC386A1D042F6CBE7EDDA /* PBXTargetDependency */,
+			);
+			name = SEPhotoAlbum;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		017D624116D26DE78CDCDD425880E1A5 /* se_cancel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 829A650AC7519937F8F9D7618F242B04 /* se_cancel@2x.png */; };
+		02917B6629A3AD09B57C53391D968056 /* se_back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E627886CE0E177C48AF5162A95EC28A /* se_back@2x.png */; };
+		04D2D305270536A7AAEA3BAD0D2D5AF4 /* MeituEditStyleViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = D03EE0D8EF26D4B70A7DCFDDBD5710E4 /* MeituEditStyleViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		057AA2041152721C6F71CDBBD4F84133 /* UIColor+Help.h in Headers */ = {isa = PBXBuildFile; fileRef = 82D0D69D1D3960B34880D6CA68DC317A /* UIColor+Help.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16FCC92ED4B7BDEE39DB50FB6A142E01 /* UIColor+Help.m in Sources */ = {isa = PBXBuildFile; fileRef = 582E679D518EF72E338217D44094D6DA /* UIColor+Help.m */; };
+		2C264A535CCB0524A15E4FB00B36B0D7 /* Strings in Resources */ = {isa = PBXBuildFile; fileRef = B8F569650B247B665FD8BF4180C3154D /* Strings */; };
+		30D301E8471FAEA7CF9106856C6E1712 /* MeituEditStyleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A30E449C55BB49746B250FDBA2E04D1 /* MeituEditStyleViewController.m */; };
+		32B0D1CCAAC1F9845BAE6ED8B98B50D8 /* GLMeituContentView.h in Headers */ = {isa = PBXBuildFile; fileRef = 99F8983573CA8D50EA6B87E204373EAE /* GLMeituContentView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		33DD89D243EFC957107F9D662CE61109 /* se_edited@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 614DB1045F31DCDDB9E680AA7BFADB95 /* se_edited@2x.png */; };
+		342ABB5A26987EB8D51F217832E6334C /* UIButton+Help.m in Sources */ = {isa = PBXBuildFile; fileRef = 510CA61904E24E6547ECC6BFB2F7F96C /* UIButton+Help.m */; };
+		358B5CF9DFE35C638BC23E6C0DAF74A5 /* Pods-SEPhotoPuzzle_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FA2139F4C82165251A5193608E57CB8B /* Pods-SEPhotoPuzzle_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46558D259B50739E3D6A90E330CEF9FC /* Assets in Resources */ = {isa = PBXBuildFile; fileRef = 137BFADD0006C55655C7A9D3288DE6F6 /* Assets */; };
+		46CBCA76923804F0DF457B821F8AD2B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		4B25A94B853C830A3FCC518B06697688 /* se_select@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D6A7D3D480CD9977CC9774FC2475B4F2 /* se_select@2x.png */; };
+		55D1667576C9FF955D1B4F6FDBCAF3A6 /* LoadingViewManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F22C675045FCDC66893FDEC6F70065BF /* LoadingViewManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A1BC19DB3AD51FD1B085F5DBE1700B9 /* MeituImageEditView.m in Sources */ = {isa = PBXBuildFile; fileRef = 253CC80D72424357A3AF3D68D79CABF0 /* MeituImageEditView.m */; };
+		5A2E5DF057CD32942E400BC821A85F7D /* SUIModalActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D5D4D015EEE8A3182B7E8230E32AD99 /* SUIModalActionSheet.m */; };
+		60C94DFBD6667F4BC67C5ED8FE58446B /* se_edited@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5CFA7C59541F6A33F21396E9485CA0C /* se_edited@3x.png */; };
+		65972B6CFBF17BDE86ECA9EDD6D5EC86 /* SEPhotoPuzzleAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 60ED588F54AD144A4554DA9034550BD8 /* SEPhotoPuzzleAPI.m */; };
+		6B1988DE8F406F9505A34F116B2006E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		77B8BD17881126BE7FB3DB7FC8D90ADE /* GLMeituSpliceContentView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9636193C102AD2D11716D03C3B2F65B7 /* GLMeituSpliceContentView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		898F8279EEE06F798B011F4412165F34 /* Plists in Resources */ = {isa = PBXBuildFile; fileRef = F4D35AE6323691C988384D35B43173C4 /* Plists */; };
+		8EA49E5C244F565573A1B4885461BC61 /* SEPhotoPuzzleAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = D0BCE376BF9E726D9BFACDF0B3CF733B /* SEPhotoPuzzleAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A6C08E3E42C987F8968A6CEE05259EA /* UIButton+Help.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D79458CA39A6C3B26871131B4E89B4 /* UIButton+Help.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B583C6BE3B7CDC253964D839003C02C /* se_back@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D157F22F17E8DC27BF8EFDEDB50614A1 /* se_back@3x.png */; };
+		A73431C4575167C2984E3A3BA421AA2B /* MeituImageEditView.h in Headers */ = {isa = PBXBuildFile; fileRef = EFCFD70CAA452637D8843B0FFDDC34CC /* MeituImageEditView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADBE375C0B0D95D0EC9C609FC1CD32B1 /* SharedImageViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8023EBAE50DE6F279D944F53863FA87E /* SharedImageViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B05E896CCBD17838CE675648F2E722D0 /* GLStoryboardSelectView.h in Headers */ = {isa = PBXBuildFile; fileRef = B44E914B39EDCCD93704EA6822CF8B99 /* GLStoryboardSelectView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B113366CDDD90D67EA59A9ADAFD8AE87 /* se_cancel@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC29CE88D25F20C1712CF44D80B8EFFA /* se_cancel@3x.png */; };
+		B269281B01A699C136CE4378BFBBE494 /* SEPhotoPuzzle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D0190DBEAFDAD1012AF4684A4956E397 /* SEPhotoPuzzle.bundle */; };
+		B307610888C19B19550EBC22F64F85EC /* UIImage+Help.h in Headers */ = {isa = PBXBuildFile; fileRef = 008B7E7A79F29706A4227E964D36678A /* UIImage+Help.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B72A0A18038904F871D04DF984C47DB6 /* SEPhotoPuzzle-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5822E61C1E64901FF03422EB65BA5427 /* SEPhotoPuzzle-dummy.m */; };
+		BC167CF0FAF94C34B314FB0D7B65193F /* GLMeituContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = D011A12AE986646C691E6B2007F0E430 /* GLMeituContentView.m */; };
+		C0A93E113842EE54FA53BF73FBDE0E7E /* LoadingViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 459B18E2D0135D7C98A5AB8E5D42A6C9 /* LoadingViewManager.m */; };
+		C7D6B590B769DDDC904DA29DC234A732 /* SUIModalActionSheet.h in Headers */ = {isa = PBXBuildFile; fileRef = A077E84126F54BEB55C4963152B00FD8 /* SUIModalActionSheet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D1BC3848E4256DB76A92786D3D11FC0F /* UIImage+Help.m in Sources */ = {isa = PBXBuildFile; fileRef = C7C7CAAFBAD505F2D761AA4C839E2A75 /* UIImage+Help.m */; };
+		D3CF31720A00C6A856413958DD286EA9 /* se_select@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D6D9B814C69AD47F2602F797A185E7CF /* se_select@3x.png */; };
+		D8554F2159D44448915EAB032A5CB4E5 /* Pods-SEPhotoPuzzle_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E5D3931E4CDF762A7F0ABA972A889FE /* Pods-SEPhotoPuzzle_Example-dummy.m */; };
+		DCEE09BBC0BA26256A818BE64C2AB698 /* se_confirm@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C20FECE9D49829E3D4495840AD4885E2 /* se_confirm@3x.png */; };
+		DDCEA1BE1D656B6A40390D87D73BC492 /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 694B7590A50091EEB7FDBAE53705C16F /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DFD6DA9A1D244F65870BF90D9BB9D4F7 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C55A6CCED4A8E3CE5B2AC1C4110FDF8 /* MBProgressHUD.m */; };
+		E8133D1CCDC399F43639080C5E20C76D /* SharedImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E107A511DC8AA571B7C3F01694EF97 /* SharedImageViewController.m */; };
+		EE8EE82DB17026FAA504DD24A83EBFCA /* se_confirm@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF1E3613875DCEBD7C02BBD9634B98D3 /* se_confirm@2x.png */; };
+		F199283AEAB92B8C05A10F474A06FE3C /* GLMeituSpliceContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD442586D1DB28D3439B3DF5E45BD45A /* GLMeituSpliceContentView.m */; };
+		F8DF7292B4BBD54E67E9B4442B648E0A /* se_camera@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BD4499649790060AA52A048F767C235 /* se_camera@2x.png */; };
+		FD430D5D09B01828819BEDBC96FA2CF7 /* SEPhotoPuzzle-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8423BC800D9F80143156E1A88818212E /* SEPhotoPuzzle-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF8568259585BCF664C4727443427F9A /* GLStoryboardSelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = D664A09D915604001E4A629E5CFC01FC /* GLStoryboardSelectView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3DA7339B700B6C472A2B6949639344F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A8443EB837FC23A4D170EFDAE889024;
+			remoteInfo = SEPhotoAlbum;
+		};
+		688413A9CBA81872E6D5BDACC0D82E36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89E7719CF6C0A512F26F267CE7400191;
+			remoteInfo = SEPhotoPuzzle;
+		};
+		A5DD89995DBAB3F38B1F5AF3EBDB3501 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCF7CD5C4D9E71AAEFE327CF69D523F9;
+			remoteInfo = "SEPhotoAlbum-SEPhotoAlbum";
+		};
+		CFC1648CA2D8A99CD4428A63681D269D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 898F12D715DB138C36E5EF2CC1D0AA6A;
+			remoteInfo = "SEPhotoPuzzle-SEPhotoPuzzle";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		008B7E7A79F29706A4227E964D36678A /* UIImage+Help.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+Help.h"; sourceTree = "<group>"; };
+		03E107A511DC8AA571B7C3F01694EF97 /* SharedImageViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SharedImageViewController.m; sourceTree = "<group>"; };
+		04825AB2B55D358A2F005E0DE7EC6790 /* SEPhotoPuzzle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SEPhotoPuzzle.debug.xcconfig; sourceTree = "<group>"; };
+		0AEFB4283CA36DCE83FF0713DEA645CB /* SEPhotoAlbum.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SEPhotoAlbum.release.xcconfig; sourceTree = "<group>"; };
+		0D5D4D015EEE8A3182B7E8230E32AD99 /* SUIModalActionSheet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SUIModalActionSheet.m; sourceTree = "<group>"; };
+		0D5E7C37B80D89D37BB76E69C9C83E6F /* Pods-SEPhotoPuzzle_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SEPhotoPuzzle_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		137BFADD0006C55655C7A9D3288DE6F6 /* Assets */ = {isa = PBXFileReference; includeInIndex = 1; name = Assets; path = SEPhotoPuzzle/Assets/Assets; sourceTree = "<group>"; };
+		1985FE63110D69C8FDC2963A6824F21C /* SEPhotoPuzzle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SEPhotoPuzzle.framework; path = SEPhotoPuzzle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C55A6CCED4A8E3CE5B2AC1C4110FDF8 /* MBProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		1EB965B8927448D4ED51D205E45CC444 /* Pods-SEPhotoPuzzle_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SEPhotoPuzzle_Example.modulemap"; sourceTree = "<group>"; };
+		253CC80D72424357A3AF3D68D79CABF0 /* MeituImageEditView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MeituImageEditView.m; sourceTree = "<group>"; };
+		29056ABD1A7B8FE6608757142B990867 /* SEPhotoPuzzle-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SEPhotoPuzzle-prefix.pch"; sourceTree = "<group>"; };
+		2A30E449C55BB49746B250FDBA2E04D1 /* MeituEditStyleViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MeituEditStyleViewController.m; sourceTree = "<group>"; };
+		3124B9B6385F244E7D6D3813C82CC010 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3E627886CE0E177C48AF5162A95EC28A /* se_back@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "se_back@2x.png"; path = "SEPhotoAlbum/Assets/se_back@2x.png"; sourceTree = "<group>"; };
+		459B18E2D0135D7C98A5AB8E5D42A6C9 /* LoadingViewManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LoadingViewManager.m; sourceTree = "<group>"; };
+		4E5D3931E4CDF762A7F0ABA972A889FE /* Pods-SEPhotoPuzzle_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SEPhotoPuzzle_Example-dummy.m"; sourceTree = "<group>"; };
+		510CA61904E24E6547ECC6BFB2F7F96C /* UIButton+Help.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Help.m"; sourceTree = "<group>"; };
+		5822E61C1E64901FF03422EB65BA5427 /* SEPhotoPuzzle-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SEPhotoPuzzle-dummy.m"; sourceTree = "<group>"; };
+		582E679D518EF72E338217D44094D6DA /* UIColor+Help.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Help.m"; sourceTree = "<group>"; };
+		5B4C77639D75ECC9D1DC2CD6CFDC7F33 /* Pods-SEPhotoPuzzle_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SEPhotoPuzzle_Example-frameworks.sh"; sourceTree = "<group>"; };
+		5B94287A8A56F8AC194749C5187EF12F /* Pods_SEPhotoPuzzle_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SEPhotoPuzzle_Example.framework; path = "Pods-SEPhotoPuzzle_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BD4499649790060AA52A048F767C235 /* se_camera@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "se_camera@2x.png"; path = "SEPhotoAlbum/Assets/se_camera@2x.png"; sourceTree = "<group>"; };
+		60ED588F54AD144A4554DA9034550BD8 /* SEPhotoPuzzleAPI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEPhotoPuzzleAPI.m; path = SEPhotoPuzzle/Classes/SEPhotoPuzzleAPI.m; sourceTree = "<group>"; };
+		60F3826F2CAA44564F8BE8A4ACB4F717 /* SEPhotoPuzzle-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SEPhotoPuzzle-Info.plist"; sourceTree = "<group>"; };
+		614DB1045F31DCDDB9E680AA7BFADB95 /* se_edited@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "se_edited@2x.png"; path = "SEPhotoAlbum/Assets/se_edited@2x.png"; sourceTree = "<group>"; };
+		63F911356860530169C808F851737A10 /* ResourceBundle-SEPhotoAlbum-SEPhotoAlbum-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-SEPhotoAlbum-SEPhotoAlbum-Info.plist"; sourceTree = "<group>"; };
+		694B7590A50091EEB7FDBAE53705C16F /* MBProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		6CA12AE0781AEBB972904F9E63783353 /* Pods-SEPhotoPuzzle_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SEPhotoPuzzle_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		7C3A73329636D0EE213F8FB5C822C8EE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		7F25F12A06280EB28BBCDEED20CE64E2 /* SEPhotoPuzzle.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SEPhotoPuzzle.modulemap; sourceTree = "<group>"; };
+		8023EBAE50DE6F279D944F53863FA87E /* SharedImageViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SharedImageViewController.h; sourceTree = "<group>"; };
+		829A650AC7519937F8F9D7618F242B04 /* se_cancel@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "se_cancel@2x.png"; path = "SEPhotoAlbum/Assets/se_cancel@2x.png"; sourceTree = "<group>"; };
+		82D0D69D1D3960B34880D6CA68DC317A /* UIColor+Help.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+Help.h"; sourceTree = "<group>"; };
+		8423BC800D9F80143156E1A88818212E /* SEPhotoPuzzle-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SEPhotoPuzzle-umbrella.h"; sourceTree = "<group>"; };
+		9636193C102AD2D11716D03C3B2F65B7 /* GLMeituSpliceContentView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GLMeituSpliceContentView.h; sourceTree = "<group>"; };
+		99F8983573CA8D50EA6B87E204373EAE /* GLMeituContentView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GLMeituContentView.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A04E86A0946FB788B7A039ACCBA16E8B /* Pods-SEPhotoPuzzle_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SEPhotoPuzzle_Example.release.xcconfig"; sourceTree = "<group>"; };
+		A077E84126F54BEB55C4963152B00FD8 /* SUIModalActionSheet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SUIModalActionSheet.h; sourceTree = "<group>"; };
+		ADF5B314440630B2531EF12A875EB2A4 /* Pods-SEPhotoPuzzle_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SEPhotoPuzzle_Example-resources.sh"; sourceTree = "<group>"; };
+		AFBFD1C8B89AB7B29AB6BCC4A95B836C /* SEPhotoAlbum.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SEPhotoAlbum.framework; path = SEPhotoAlbum/Products/SEPhotoAlbum.framework; sourceTree = "<group>"; };
+		B44E914B39EDCCD93704EA6822CF8B99 /* GLStoryboardSelectView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GLStoryboardSelectView.h; sourceTree = "<group>"; };
+		B8F569650B247B665FD8BF4180C3154D /* Strings */ = {isa = PBXFileReference; includeInIndex = 1; name = Strings; path = SEPhotoPuzzle/Assets/Strings; sourceTree = "<group>"; };
+		BF1E3613875DCEBD7C02BBD9634B98D3 /* se_confirm@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "se_confirm@2x.png"; path = "SEPhotoAlbum/Assets/se_confirm@2x.png"; sourceTree = "<group>"; };
+		C1E89D3ABA0673832259CA478C9E7FAC /* Pods-SEPhotoPuzzle_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SEPhotoPuzzle_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		C20FECE9D49829E3D4495840AD4885E2 /* se_confirm@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "se_confirm@3x.png"; path = "SEPhotoAlbum/Assets/se_confirm@3x.png"; sourceTree = "<group>"; };
+		C5CFA7C59541F6A33F21396E9485CA0C /* se_edited@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "se_edited@3x.png"; path = "SEPhotoAlbum/Assets/se_edited@3x.png"; sourceTree = "<group>"; };
+		C7C7CAAFBAD505F2D761AA4C839E2A75 /* UIImage+Help.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Help.m"; sourceTree = "<group>"; };
+		CD442586D1DB28D3439B3DF5E45BD45A /* GLMeituSpliceContentView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GLMeituSpliceContentView.m; sourceTree = "<group>"; };
+		CD552FD9E97E30C2FA1E9D92CAB2D8F7 /* SEPhotoPuzzle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SEPhotoPuzzle.release.xcconfig; sourceTree = "<group>"; };
+		D011A12AE986646C691E6B2007F0E430 /* GLMeituContentView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GLMeituContentView.m; sourceTree = "<group>"; };
+		D0190DBEAFDAD1012AF4684A4956E397 /* SEPhotoPuzzle.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = SEPhotoPuzzle.bundle; path = "SEPhotoPuzzle-SEPhotoPuzzle.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D03EE0D8EF26D4B70A7DCFDDBD5710E4 /* MeituEditStyleViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MeituEditStyleViewController.h; sourceTree = "<group>"; };
+		D0BCE376BF9E726D9BFACDF0B3CF733B /* SEPhotoPuzzleAPI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEPhotoPuzzleAPI.h; path = SEPhotoPuzzle/Classes/SEPhotoPuzzleAPI.h; sourceTree = "<group>"; };
+		D157F22F17E8DC27BF8EFDEDB50614A1 /* se_back@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "se_back@3x.png"; path = "SEPhotoAlbum/Assets/se_back@3x.png"; sourceTree = "<group>"; };
+		D664A09D915604001E4A629E5CFC01FC /* GLStoryboardSelectView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GLStoryboardSelectView.m; sourceTree = "<group>"; };
+		D6A7D3D480CD9977CC9774FC2475B4F2 /* se_select@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "se_select@2x.png"; path = "SEPhotoAlbum/Assets/se_select@2x.png"; sourceTree = "<group>"; };
+		D6D9B814C69AD47F2602F797A185E7CF /* se_select@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "se_select@3x.png"; path = "SEPhotoAlbum/Assets/se_select@3x.png"; sourceTree = "<group>"; };
+		D79B97435C0B7C261CB3C0F3E39C7119 /* SEPhotoPuzzle.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SEPhotoPuzzle.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		DB628C11E3BAD3244145505DF973207A /* Pods-SEPhotoPuzzle_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SEPhotoPuzzle_Example-Info.plist"; sourceTree = "<group>"; };
+		E2624D1B13AFB29F8F4BE39A3817CB82 /* ResourceBundle-SEPhotoPuzzle-SEPhotoPuzzle-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-SEPhotoPuzzle-SEPhotoPuzzle-Info.plist"; sourceTree = "<group>"; };
+		EFCFD70CAA452637D8843B0FFDDC34CC /* MeituImageEditView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MeituImageEditView.h; sourceTree = "<group>"; };
+		F22C675045FCDC66893FDEC6F70065BF /* LoadingViewManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LoadingViewManager.h; sourceTree = "<group>"; };
+		F4D35AE6323691C988384D35B43173C4 /* Plists */ = {isa = PBXFileReference; includeInIndex = 1; name = Plists; path = SEPhotoPuzzle/Assets/Plists; sourceTree = "<group>"; };
+		F8D79458CA39A6C3B26871131B4E89B4 /* UIButton+Help.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIButton+Help.h"; sourceTree = "<group>"; };
+		F948FF9E0F55FD08064F9549D3ECB3E7 /* SEPhotoAlbum.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = SEPhotoAlbum.bundle; path = "SEPhotoAlbum-SEPhotoAlbum.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA2139F4C82165251A5193608E57CB8B /* Pods-SEPhotoPuzzle_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SEPhotoPuzzle_Example-umbrella.h"; sourceTree = "<group>"; };
+		FC29CE88D25F20C1712CF44D80B8EFFA /* se_cancel@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "se_cancel@3x.png"; path = "SEPhotoAlbum/Assets/se_cancel@3x.png"; sourceTree = "<group>"; };
+		FFF7CB1468B3A537217A5AF1A6D46489 /* SEPhotoAlbum.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SEPhotoAlbum.debug.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30FD648CC5B86973F02EC8E9498B98ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CAAE6C42C8BF29C786CBF421FD38629 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C69642FA9E4EBA60AD4F12208BA07441 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B1988DE8F406F9505A34F116B2006E4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2F079E544ABEF378A0371990FE49E70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46CBCA76923804F0DF457B821F8AD2B6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		024357CF4FA5E04327C5FD799050A263 /* edit */ = {
+			isa = PBXGroup;
+			children = (
+				D03EE0D8EF26D4B70A7DCFDDBD5710E4 /* MeituEditStyleViewController.h */,
+				2A30E449C55BB49746B250FDBA2E04D1 /* MeituEditStyleViewController.m */,
+			);
+			name = edit;
+			path = edit;
+			sourceTree = "<group>";
+		};
+		09ED23D482FA83861DB33723DDD1F0E5 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				F8D79458CA39A6C3B26871131B4E89B4 /* UIButton+Help.h */,
+				510CA61904E24E6547ECC6BFB2F7F96C /* UIButton+Help.m */,
+				82D0D69D1D3960B34880D6CA68DC317A /* UIColor+Help.h */,
+				582E679D518EF72E338217D44094D6DA /* UIColor+Help.m */,
+				008B7E7A79F29706A4227E964D36678A /* UIImage+Help.h */,
+				C7C7CAAFBAD505F2D761AA4C839E2A75 /* UIImage+Help.m */,
+			);
+			name = Utility;
+			path = SEPhotoPuzzle/Classes/Utility;
+			sourceTree = "<group>";
+		};
+		0D629D77F9A84D6B687DBAFA31B46315 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				7C3A73329636D0EE213F8FB5C822C8EE /* LICENSE */,
+				3124B9B6385F244E7D6D3813C82CC010 /* README.md */,
+				D79B97435C0B7C261CB3C0F3E39C7119 /* SEPhotoPuzzle.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		0ED13CE12D340A60638D0C3834662599 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				38C8804851122BE3A1FB012FEC97ABF7 /* Pods-SEPhotoPuzzle_Example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		10FA2F43EF51F139EC88763527B4EFF0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				137BFADD0006C55655C7A9D3288DE6F6 /* Assets */,
+				F4D35AE6323691C988384D35B43173C4 /* Plists */,
+				B8F569650B247B665FD8BF4180C3154D /* Strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		1BF6DAF2C721233C4A8CEC1255570053 /* manager */ = {
+			isa = PBXGroup;
+			children = (
+				F22C675045FCDC66893FDEC6F70065BF /* LoadingViewManager.h */,
+				459B18E2D0135D7C98A5AB8E5D42A6C9 /* LoadingViewManager.m */,
+				694B7590A50091EEB7FDBAE53705C16F /* MBProgressHUD.h */,
+				1C55A6CCED4A8E3CE5B2AC1C4110FDF8 /* MBProgressHUD.m */,
+			);
+			name = manager;
+			path = SEPhotoPuzzle/Classes/manager;
+			sourceTree = "<group>";
+		};
+		302CCE8C6DA14682CC563B474D153BC0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				63F911356860530169C808F851737A10 /* ResourceBundle-SEPhotoAlbum-SEPhotoAlbum-Info.plist */,
+				FFF7CB1468B3A537217A5AF1A6D46489 /* SEPhotoAlbum.debug.xcconfig */,
+				0AEFB4283CA36DCE83FF0713DEA645CB /* SEPhotoAlbum.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SEPhotoAlbum";
+			sourceTree = "<group>";
+		};
+		310E605259C7C0DC2E4EA7E65B0F9B7A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B94287A8A56F8AC194749C5187EF12F /* Pods_SEPhotoPuzzle_Example.framework */,
+				F948FF9E0F55FD08064F9549D3ECB3E7 /* SEPhotoAlbum.bundle */,
+				D0190DBEAFDAD1012AF4684A4956E397 /* SEPhotoPuzzle.bundle */,
+				1985FE63110D69C8FDC2963A6824F21C /* SEPhotoPuzzle.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		38C8804851122BE3A1FB012FEC97ABF7 /* Pods-SEPhotoPuzzle_Example */ = {
+			isa = PBXGroup;
+			children = (
+				1EB965B8927448D4ED51D205E45CC444 /* Pods-SEPhotoPuzzle_Example.modulemap */,
+				0D5E7C37B80D89D37BB76E69C9C83E6F /* Pods-SEPhotoPuzzle_Example-acknowledgements.markdown */,
+				C1E89D3ABA0673832259CA478C9E7FAC /* Pods-SEPhotoPuzzle_Example-acknowledgements.plist */,
+				4E5D3931E4CDF762A7F0ABA972A889FE /* Pods-SEPhotoPuzzle_Example-dummy.m */,
+				5B4C77639D75ECC9D1DC2CD6CFDC7F33 /* Pods-SEPhotoPuzzle_Example-frameworks.sh */,
+				DB628C11E3BAD3244145505DF973207A /* Pods-SEPhotoPuzzle_Example-Info.plist */,
+				ADF5B314440630B2531EF12A875EB2A4 /* Pods-SEPhotoPuzzle_Example-resources.sh */,
+				FA2139F4C82165251A5193608E57CB8B /* Pods-SEPhotoPuzzle_Example-umbrella.h */,
+				6CA12AE0781AEBB972904F9E63783353 /* Pods-SEPhotoPuzzle_Example.debug.xcconfig */,
+				A04E86A0946FB788B7A039ACCBA16E8B /* Pods-SEPhotoPuzzle_Example.release.xcconfig */,
+			);
+			name = "Pods-SEPhotoPuzzle_Example";
+			path = "Target Support Files/Pods-SEPhotoPuzzle_Example";
+			sourceTree = "<group>";
+		};
+		3DA92D0D94BFEA8BF2B5E2603C7739CE /* preview */ = {
+			isa = PBXGroup;
+			children = (
+				8023EBAE50DE6F279D944F53863FA87E /* SharedImageViewController.h */,
+				03E107A511DC8AA571B7C3F01694EF97 /* SharedImageViewController.m */,
+			);
+			name = preview;
+			path = preview;
+			sourceTree = "<group>";
+		};
+		68C677C50FA636EED5DED60B69C86E73 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CED8D2E4527266531E9580B2E7FCBD6F /* SEPhotoAlbum */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7847CF10AE406E849BD97E9A6725CB69 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				99F8983573CA8D50EA6B87E204373EAE /* GLMeituContentView.h */,
+				D011A12AE986646C691E6B2007F0E430 /* GLMeituContentView.m */,
+				9636193C102AD2D11716D03C3B2F65B7 /* GLMeituSpliceContentView.h */,
+				CD442586D1DB28D3439B3DF5E45BD45A /* GLMeituSpliceContentView.m */,
+				B44E914B39EDCCD93704EA6822CF8B99 /* GLStoryboardSelectView.h */,
+				D664A09D915604001E4A629E5CFC01FC /* GLStoryboardSelectView.m */,
+				EFCFD70CAA452637D8843B0FFDDC34CC /* MeituImageEditView.h */,
+				253CC80D72424357A3AF3D68D79CABF0 /* MeituImageEditView.m */,
+				A077E84126F54BEB55C4963152B00FD8 /* SUIModalActionSheet.h */,
+				0D5D4D015EEE8A3182B7E8230E32AD99 /* SUIModalActionSheet.m */,
+			);
+			name = view;
+			path = SEPhotoPuzzle/Classes/view;
+			sourceTree = "<group>";
+		};
+		81208E9BF8E6008B6DE82D50F3CFEC79 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				024357CF4FA5E04327C5FD799050A263 /* edit */,
+				3DA92D0D94BFEA8BF2B5E2603C7739CE /* preview */,
+			);
+			name = controller;
+			path = SEPhotoPuzzle/Classes/controller;
+			sourceTree = "<group>";
+		};
+		A80BE1C48A8131DEA0CD4CA355D68EE7 /* SEPhotoPuzzle */ = {
+			isa = PBXGroup;
+			children = (
+				D0BCE376BF9E726D9BFACDF0B3CF733B /* SEPhotoPuzzleAPI.h */,
+				60ED588F54AD144A4554DA9034550BD8 /* SEPhotoPuzzleAPI.m */,
+				81208E9BF8E6008B6DE82D50F3CFEC79 /* controller */,
+				1BF6DAF2C721233C4A8CEC1255570053 /* manager */,
+				0D629D77F9A84D6B687DBAFA31B46315 /* Pod */,
+				10FA2F43EF51F139EC88763527B4EFF0 /* Resources */,
+				D6390632D63CFC789361CD2D69EC6A3A /* Support Files */,
+				09ED23D482FA83861DB33723DDD1F0E5 /* Utility */,
+				7847CF10AE406E849BD97E9A6725CB69 /* view */,
+			);
+			name = SEPhotoPuzzle;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		A860EBD6A417F80F2BAFBCF570AF4964 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A80BE1C48A8131DEA0CD4CA355D68EE7 /* SEPhotoPuzzle */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		AB4B18949C7D0413E6A3BF091429AAA8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3E627886CE0E177C48AF5162A95EC28A /* se_back@2x.png */,
+				D157F22F17E8DC27BF8EFDEDB50614A1 /* se_back@3x.png */,
+				5BD4499649790060AA52A048F767C235 /* se_camera@2x.png */,
+				829A650AC7519937F8F9D7618F242B04 /* se_cancel@2x.png */,
+				FC29CE88D25F20C1712CF44D80B8EFFA /* se_cancel@3x.png */,
+				BF1E3613875DCEBD7C02BBD9634B98D3 /* se_confirm@2x.png */,
+				C20FECE9D49829E3D4495840AD4885E2 /* se_confirm@3x.png */,
+				614DB1045F31DCDDB9E680AA7BFADB95 /* se_edited@2x.png */,
+				C5CFA7C59541F6A33F21396E9485CA0C /* se_edited@3x.png */,
+				D6A7D3D480CD9977CC9774FC2475B4F2 /* se_select@2x.png */,
+				D6D9B814C69AD47F2602F797A185E7CF /* se_select@3x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CED8D2E4527266531E9580B2E7FCBD6F /* SEPhotoAlbum */ = {
+			isa = PBXGroup;
+			children = (
+				EFFF83A4F3B2C44CDF941F9B246CBD91 /* Frameworks */,
+				AB4B18949C7D0413E6A3BF091429AAA8 /* Resources */,
+				302CCE8C6DA14682CC563B474D153BC0 /* Support Files */,
+			);
+			name = SEPhotoAlbum;
+			path = SEPhotoAlbum;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				A860EBD6A417F80F2BAFBCF570AF4964 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				68C677C50FA636EED5DED60B69C86E73 /* Pods */,
+				310E605259C7C0DC2E4EA7E65B0F9B7A /* Products */,
+				0ED13CE12D340A60638D0C3834662599 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D6390632D63CFC789361CD2D69EC6A3A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E2624D1B13AFB29F8F4BE39A3817CB82 /* ResourceBundle-SEPhotoPuzzle-SEPhotoPuzzle-Info.plist */,
+				7F25F12A06280EB28BBCDEED20CE64E2 /* SEPhotoPuzzle.modulemap */,
+				5822E61C1E64901FF03422EB65BA5427 /* SEPhotoPuzzle-dummy.m */,
+				60F3826F2CAA44564F8BE8A4ACB4F717 /* SEPhotoPuzzle-Info.plist */,
+				29056ABD1A7B8FE6608757142B990867 /* SEPhotoPuzzle-prefix.pch */,
+				8423BC800D9F80143156E1A88818212E /* SEPhotoPuzzle-umbrella.h */,
+				04825AB2B55D358A2F005E0DE7EC6790 /* SEPhotoPuzzle.debug.xcconfig */,
+				CD552FD9E97E30C2FA1E9D92CAB2D8F7 /* SEPhotoPuzzle.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SEPhotoPuzzle";
+			sourceTree = "<group>";
+		};
+		EFFF83A4F3B2C44CDF941F9B246CBD91 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AFBFD1C8B89AB7B29AB6BCC4A95B836C /* SEPhotoAlbum.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		005FBBE1793E248992D13215BEF33205 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				358B5CF9DFE35C638BC23E6C0DAF74A5 /* Pods-SEPhotoPuzzle_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42988C66D61E05AAE08F3196886B32B1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32B0D1CCAAC1F9845BAE6ED8B98B50D8 /* GLMeituContentView.h in Headers */,
+				77B8BD17881126BE7FB3DB7FC8D90ADE /* GLMeituSpliceContentView.h in Headers */,
+				B05E896CCBD17838CE675648F2E722D0 /* GLStoryboardSelectView.h in Headers */,
+				55D1667576C9FF955D1B4F6FDBCAF3A6 /* LoadingViewManager.h in Headers */,
+				DDCEA1BE1D656B6A40390D87D73BC492 /* MBProgressHUD.h in Headers */,
+				04D2D305270536A7AAEA3BAD0D2D5AF4 /* MeituEditStyleViewController.h in Headers */,
+				A73431C4575167C2984E3A3BA421AA2B /* MeituImageEditView.h in Headers */,
+				FD430D5D09B01828819BEDBC96FA2CF7 /* SEPhotoPuzzle-umbrella.h in Headers */,
+				8EA49E5C244F565573A1B4885461BC61 /* SEPhotoPuzzleAPI.h in Headers */,
+				ADBE375C0B0D95D0EC9C609FC1CD32B1 /* SharedImageViewController.h in Headers */,
+				C7D6B590B769DDDC904DA29DC234A732 /* SUIModalActionSheet.h in Headers */,
+				9A6C08E3E42C987F8968A6CEE05259EA /* UIButton+Help.h in Headers */,
+				057AA2041152721C6F71CDBBD4F84133 /* UIColor+Help.h in Headers */,
+				B307610888C19B19550EBC22F64F85EC /* UIImage+Help.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		898F12D715DB138C36E5EF2CC1D0AA6A /* SEPhotoPuzzle-SEPhotoPuzzle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54F0FC533EE696AA672B09D37A0C28AA /* Build configuration list for PBXNativeTarget "SEPhotoPuzzle-SEPhotoPuzzle" */;
+			buildPhases = (
+				AFA3CC2BE2210140501D4560297D038A /* Sources */,
+				30FD648CC5B86973F02EC8E9498B98ED /* Frameworks */,
+				04C282510E2FD9BA9FBF487AA1932532 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SEPhotoPuzzle-SEPhotoPuzzle";
+			productName = "SEPhotoPuzzle-SEPhotoPuzzle";
+			productReference = D0190DBEAFDAD1012AF4684A4956E397 /* SEPhotoPuzzle.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		89E7719CF6C0A512F26F267CE7400191 /* SEPhotoPuzzle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F525FF969366484F87499374BE4335ED /* Build configuration list for PBXNativeTarget "SEPhotoPuzzle" */;
+			buildPhases = (
+				42988C66D61E05AAE08F3196886B32B1 /* Headers */,
+				30210454CC840CC8BE0259640F207211 /* Sources */,
+				C69642FA9E4EBA60AD4F12208BA07441 /* Frameworks */,
+				42FB8370EE080BAB6EE552321DE74932 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBC5D98B8857F366C40254799C454DC3 /* PBXTargetDependency */,
+			);
+			name = SEPhotoPuzzle;
+			productName = SEPhotoPuzzle;
+			productReference = 1985FE63110D69C8FDC2963A6824F21C /* SEPhotoPuzzle.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DCF7CD5C4D9E71AAEFE327CF69D523F9 /* SEPhotoAlbum-SEPhotoAlbum */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07B0B9155DCCDC1FE8A298C44FC40E5C /* Build configuration list for PBXNativeTarget "SEPhotoAlbum-SEPhotoAlbum" */;
+			buildPhases = (
+				41CFCCC0806BC6C0E3C7F006AF64452A /* Sources */,
+				8CAAE6C42C8BF29C786CBF421FD38629 /* Frameworks */,
+				D01EE711676321AB8DB8938294C929A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SEPhotoAlbum-SEPhotoAlbum";
+			productName = "SEPhotoAlbum-SEPhotoAlbum";
+			productReference = F948FF9E0F55FD08064F9549D3ECB3E7 /* SEPhotoAlbum.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		E4D8AC63EC7AD50256A8A36D605A679C /* Pods-SEPhotoPuzzle_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BEB54A0491B7D2F2EF1CA910E625853 /* Build configuration list for PBXNativeTarget "Pods-SEPhotoPuzzle_Example" */;
+			buildPhases = (
+				005FBBE1793E248992D13215BEF33205 /* Headers */,
+				CAB6006A615EDB472563217B7FCDA59E /* Sources */,
+				E2F079E544ABEF378A0371990FE49E70 /* Frameworks */,
+				48B3E7CBB865ED5E2C98CE9E7ED2F7F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A65929259CCFB7D60154765EC84DFB4 /* PBXTargetDependency */,
+				A24D3D3AC61D839D5B89982E419D61B9 /* PBXTargetDependency */,
+			);
+			name = "Pods-SEPhotoPuzzle_Example";
+			productName = "Pods-SEPhotoPuzzle_Example";
+			productReference = 5B94287A8A56F8AC194749C5187EF12F /* Pods_SEPhotoPuzzle_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 310E605259C7C0DC2E4EA7E65B0F9B7A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E4D8AC63EC7AD50256A8A36D605A679C /* Pods-SEPhotoPuzzle_Example */,
+				6A8443EB837FC23A4D170EFDAE889024 /* SEPhotoAlbum */,
+				DCF7CD5C4D9E71AAEFE327CF69D523F9 /* SEPhotoAlbum-SEPhotoAlbum */,
+				89E7719CF6C0A512F26F267CE7400191 /* SEPhotoPuzzle */,
+				898F12D715DB138C36E5EF2CC1D0AA6A /* SEPhotoPuzzle-SEPhotoPuzzle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04C282510E2FD9BA9FBF487AA1932532 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46558D259B50739E3D6A90E330CEF9FC /* Assets in Resources */,
+				898F8279EEE06F798B011F4412165F34 /* Plists in Resources */,
+				2C264A535CCB0524A15E4FB00B36B0D7 /* Strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42FB8370EE080BAB6EE552321DE74932 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B269281B01A699C136CE4378BFBBE494 /* SEPhotoPuzzle.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48B3E7CBB865ED5E2C98CE9E7ED2F7F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D01EE711676321AB8DB8938294C929A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02917B6629A3AD09B57C53391D968056 /* se_back@2x.png in Resources */,
+				9B583C6BE3B7CDC253964D839003C02C /* se_back@3x.png in Resources */,
+				F8DF7292B4BBD54E67E9B4442B648E0A /* se_camera@2x.png in Resources */,
+				017D624116D26DE78CDCDD425880E1A5 /* se_cancel@2x.png in Resources */,
+				B113366CDDD90D67EA59A9ADAFD8AE87 /* se_cancel@3x.png in Resources */,
+				EE8EE82DB17026FAA504DD24A83EBFCA /* se_confirm@2x.png in Resources */,
+				DCEE09BBC0BA26256A818BE64C2AB698 /* se_confirm@3x.png in Resources */,
+				33DD89D243EFC957107F9D662CE61109 /* se_edited@2x.png in Resources */,
+				60C94DFBD6667F4BC67C5ED8FE58446B /* se_edited@3x.png in Resources */,
+				4B25A94B853C830A3FCC518B06697688 /* se_select@2x.png in Resources */,
+				D3CF31720A00C6A856413958DD286EA9 /* se_select@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30210454CC840CC8BE0259640F207211 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC167CF0FAF94C34B314FB0D7B65193F /* GLMeituContentView.m in Sources */,
+				F199283AEAB92B8C05A10F474A06FE3C /* GLMeituSpliceContentView.m in Sources */,
+				FF8568259585BCF664C4727443427F9A /* GLStoryboardSelectView.m in Sources */,
+				C0A93E113842EE54FA53BF73FBDE0E7E /* LoadingViewManager.m in Sources */,
+				DFD6DA9A1D244F65870BF90D9BB9D4F7 /* MBProgressHUD.m in Sources */,
+				30D301E8471FAEA7CF9106856C6E1712 /* MeituEditStyleViewController.m in Sources */,
+				5A1BC19DB3AD51FD1B085F5DBE1700B9 /* MeituImageEditView.m in Sources */,
+				B72A0A18038904F871D04DF984C47DB6 /* SEPhotoPuzzle-dummy.m in Sources */,
+				65972B6CFBF17BDE86ECA9EDD6D5EC86 /* SEPhotoPuzzleAPI.m in Sources */,
+				E8133D1CCDC399F43639080C5E20C76D /* SharedImageViewController.m in Sources */,
+				5A2E5DF057CD32942E400BC821A85F7D /* SUIModalActionSheet.m in Sources */,
+				342ABB5A26987EB8D51F217832E6334C /* UIButton+Help.m in Sources */,
+				16FCC92ED4B7BDEE39DB50FB6A142E01 /* UIColor+Help.m in Sources */,
+				D1BC3848E4256DB76A92786D3D11FC0F /* UIImage+Help.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41CFCCC0806BC6C0E3C7F006AF64452A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFA3CC2BE2210140501D4560297D038A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAB6006A615EDB472563217B7FCDA59E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8554F2159D44448915EAB032A5CB4E5 /* Pods-SEPhotoPuzzle_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5A65929259CCFB7D60154765EC84DFB4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SEPhotoAlbum;
+			target = 6A8443EB837FC23A4D170EFDAE889024 /* SEPhotoAlbum */;
+			targetProxy = 3DA7339B700B6C472A2B6949639344F3 /* PBXContainerItemProxy */;
+		};
+		A24D3D3AC61D839D5B89982E419D61B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SEPhotoPuzzle;
+			target = 89E7719CF6C0A512F26F267CE7400191 /* SEPhotoPuzzle */;
+			targetProxy = 688413A9CBA81872E6D5BDACC0D82E36 /* PBXContainerItemProxy */;
+		};
+		AA4D7D77455AC386A1D042F6CBE7EDDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SEPhotoAlbum-SEPhotoAlbum";
+			target = DCF7CD5C4D9E71AAEFE327CF69D523F9 /* SEPhotoAlbum-SEPhotoAlbum */;
+			targetProxy = A5DD89995DBAB3F38B1F5AF3EBDB3501 /* PBXContainerItemProxy */;
+		};
+		EBC5D98B8857F366C40254799C454DC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SEPhotoPuzzle-SEPhotoPuzzle";
+			target = 898F12D715DB138C36E5EF2CC1D0AA6A /* SEPhotoPuzzle-SEPhotoPuzzle */;
+			targetProxy = CFC1648CA2D8A99CD4428A63681D269D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0C52B72ED69DA280934BD18A5C33ED8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD552FD9E97E30C2FA1E9D92CAB2D8F7 /* SEPhotoPuzzle.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SEPhotoPuzzle/SEPhotoPuzzle-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SEPhotoPuzzle/SEPhotoPuzzle-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SEPhotoPuzzle/SEPhotoPuzzle.modulemap";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_MODULE_NAME = SEPhotoPuzzle;
+				PRODUCT_NAME = SEPhotoPuzzle;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2FC7EA4A437213BC7638A7CC959323A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04825AB2B55D358A2F005E0DE7EC6790 /* SEPhotoPuzzle.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SEPhotoPuzzle";
+				IBSC_MODULE = SEPhotoPuzzle;
+				INFOPLIST_FILE = "Target Support Files/SEPhotoPuzzle/ResourceBundle-SEPhotoPuzzle-SEPhotoPuzzle-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = SEPhotoPuzzle;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		7BCF789ACD607114C4F049AA47CB8CDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A04E86A0946FB788B7A039ACCBA16E8B /* Pods-SEPhotoPuzzle_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SEPhotoPuzzle_Example/Pods-SEPhotoPuzzle_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SEPhotoPuzzle_Example/Pods-SEPhotoPuzzle_Example.modulemap";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		916E0404255105F480DC4950B7625F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A28724551543D3AD37CB8547C25EFA31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AEFB4283CA36DCE83FF0713DEA645CB /* SEPhotoAlbum.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B33333321B7E108F3E8CB77C39CF9431 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AEFB4283CA36DCE83FF0713DEA645CB /* SEPhotoAlbum.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SEPhotoAlbum";
+				IBSC_MODULE = SEPhotoAlbum;
+				INFOPLIST_FILE = "Target Support Files/SEPhotoAlbum/ResourceBundle-SEPhotoAlbum-SEPhotoAlbum-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = SEPhotoAlbum;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		CECA4979BEF9078A6066796B3721C5E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFF7CB1468B3A537217A5AF1A6D46489 /* SEPhotoAlbum.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D21CEECD6E6B8ED19A7FBA3FD9541EB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD552FD9E97E30C2FA1E9D92CAB2D8F7 /* SEPhotoPuzzle.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SEPhotoPuzzle";
+				IBSC_MODULE = SEPhotoPuzzle;
+				INFOPLIST_FILE = "Target Support Files/SEPhotoPuzzle/ResourceBundle-SEPhotoPuzzle-SEPhotoPuzzle-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = SEPhotoPuzzle;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		D6802F71B2F1C0CB6336748A486DDC4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CA12AE0781AEBB972904F9E63783353 /* Pods-SEPhotoPuzzle_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SEPhotoPuzzle_Example/Pods-SEPhotoPuzzle_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SEPhotoPuzzle_Example/Pods-SEPhotoPuzzle_Example.modulemap";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F595955C464984DD1DF9E3B8894E1B4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04825AB2B55D358A2F005E0DE7EC6790 /* SEPhotoPuzzle.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SEPhotoPuzzle/SEPhotoPuzzle-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SEPhotoPuzzle/SEPhotoPuzzle-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SEPhotoPuzzle/SEPhotoPuzzle.modulemap";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_MODULE_NAME = SEPhotoPuzzle;
+				PRODUCT_NAME = SEPhotoPuzzle;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FFCC6A6C72DB038B17D7DBB16FEA27BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFF7CB1468B3A537217A5AF1A6D46489 /* SEPhotoAlbum.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SEPhotoAlbum";
+				IBSC_MODULE = SEPhotoAlbum;
+				INFOPLIST_FILE = "Target Support Files/SEPhotoAlbum/ResourceBundle-SEPhotoAlbum-SEPhotoAlbum-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = SEPhotoAlbum;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07B0B9155DCCDC1FE8A298C44FC40E5C /* Build configuration list for PBXNativeTarget "SEPhotoAlbum-SEPhotoAlbum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFCC6A6C72DB038B17D7DBB16FEA27BC /* Debug */,
+				B33333321B7E108F3E8CB77C39CF9431 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2542A27648DC53EAB9B7A75D1AC6C109 /* Build configuration list for PBXAggregateTarget "SEPhotoAlbum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CECA4979BEF9078A6066796B3721C5E1 /* Debug */,
+				A28724551543D3AD37CB8547C25EFA31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BEB54A0491B7D2F2EF1CA910E625853 /* Build configuration list for PBXNativeTarget "Pods-SEPhotoPuzzle_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6802F71B2F1C0CB6336748A486DDC4D /* Debug */,
+				7BCF789ACD607114C4F049AA47CB8CDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				916E0404255105F480DC4950B7625F7A /* Debug */,
+				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54F0FC533EE696AA672B09D37A0C28AA /* Build configuration list for PBXNativeTarget "SEPhotoPuzzle-SEPhotoPuzzle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FC7EA4A437213BC7638A7CC959323A6 /* Debug */,
+				D21CEECD6E6B8ED19A7FBA3FD9541EB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F525FF969366484F87499374BE4335ED /* Build configuration list for PBXNativeTarget "SEPhotoPuzzle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F595955C464984DD1DF9E3B8894E1B4B /* Debug */,
+				0C52B72ED69DA280934BD18A5C33ED8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

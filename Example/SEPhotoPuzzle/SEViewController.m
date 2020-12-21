@@ -7,6 +7,9 @@
 //
 
 #import "SEViewController.h"
+#import "SEPhotoPuzzleAPI.h"
+
+@import SEPhotoAlbum;
 
 @interface SEViewController ()
 
@@ -14,10 +17,21 @@
 
 @implementation SEViewController
 
-- (void)viewDidLoad
+- (void)viewDidAppear:(BOOL)animated
 {
-    [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    [super viewDidAppear:animated];
+
+    [SEImageAlbumManager preventImageViewControllerWithSuperViewController:self maxSelectCount:5 isSelectedFinishDismiss:NO isCustomEdit:YES :^(UIViewController * _Nonnull controller, NSArray<UIImage *> * _Nonnull images) {
+        
+        [SEPhotoPuzzleAPI presentPhotoPuzzleWithImages:images superViewController:controller];
+//        MeituEditStyleViewController *editController = [[MeituEditStyleViewController alloc] init];
+//        editController.images = images.copy;
+//        UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:editController];
+//
+//        navController.modalPresentationStyle = UIModalPresentationOverFullScreen;
+//        [controller presentViewController:navController animated:YES completion:nil];
+    }];
+    
 }
 
 - (void)didReceiveMemoryWarning

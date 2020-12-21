@@ -1,0 +1,23 @@
+PODS:
+  - SEPhotoAlbum (0.1.0)
+  - SEPhotoPuzzle (0.1.0)
+
+DEPENDENCIES:
+  - SEPhotoAlbum
+  - SEPhotoPuzzle (from `../`)
+
+SPEC REPOS:
+  https://github.com/seeEmil/SeeEmilRepo.git:
+    - SEPhotoAlbum
+
+EXTERNAL SOURCES:
+  SEPhotoPuzzle:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SEPhotoAlbum: eaa3a416b563c4b6a2917d516cf710b20003a7c9
+  SEPhotoPuzzle: 49584b547322151f24f36a63c60cd837cb4126af
+
+PODFILE CHECKSUM: 28ce70b5d4da98239ac94f1d9eb50153f11fc051
+
+COCOAPODS: 1.9.1

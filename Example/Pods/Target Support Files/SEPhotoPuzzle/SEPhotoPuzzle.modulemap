@@ -1,0 +1,6 @@
+framework module SEPhotoPuzzle {
+  umbrella header "SEPhotoPuzzle-umbrella.h"
+
+  export *
+  module * { export * }
+}
