@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'SEPhotoPuzzle'
   s.version          = '0.1.0'
-  s.summary          = 'photo Puzzle.'
+  s.summary          = 'A short description of SEPhotoPuzzle.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,7 +17,9 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = 'photo Puzzle for iOS.'
+  s.description      = <<-DESC
+TODO: Add long description of the pod here.
+                       DESC
 
   s.homepage         = 'https://github.com/seeEmil/SEPhotoPuzzle'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
@@ -28,21 +30,18 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'SEPhotoPuzzle/Classes/**/*'
-  
   s.resource_bundles = {
     'SEPhotoPuzzle' => ['SEPhotoPuzzle/Assets/*']
   }
-
-  s.public_header_files = 'Pod/Classes/**/*.h'
   
   if ENV['is_source']
-      s.source_files = 'SEPhotoAlbum/Classes/**/*'
+      s.source_files = 'SEPhotoPuzzle/Classes/**/*'
   else
-      s.vendored_frameworks = 'SEPhotoAlbum/Products/SEPhotoAlbum.framework'
+        s.source_files = 'SEPhotoPuzzle/Classes/**/*'
+      # s.vendored_frameworks = 'SEPhotoPuzzle/Products/SEPhotoPuzzle.framework'
   end
-  s.resource_bundles = {
-     'SEPhotoAlbum' => ['SEPhotoAlbum/Assets/*.png']
-  }
+  
+  # s.public_header_files = 'Pod/Classes/**/*.h'
+  # s.frameworks = 'UIKit', 'MapKit'
 
 end

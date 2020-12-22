@@ -16,6 +16,7 @@
 				AA4D7D77455AC386A1D042F6CBE7EDDA /* PBXTargetDependency */,
 			);
 			name = SEPhotoAlbum;
+			productName = SEPhotoAlbum;
 		};
 /* End PBXAggregateTarget section */
 
@@ -107,14 +108,14 @@
 		0AEFB4283CA36DCE83FF0713DEA645CB /* SEPhotoAlbum.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SEPhotoAlbum.release.xcconfig; sourceTree = "<group>"; };
 		0D5D4D015EEE8A3182B7E8230E32AD99 /* SUIModalActionSheet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SUIModalActionSheet.m; sourceTree = "<group>"; };
 		0D5E7C37B80D89D37BB76E69C9C83E6F /* Pods-SEPhotoPuzzle_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SEPhotoPuzzle_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		137BFADD0006C55655C7A9D3288DE6F6 /* Assets */ = {isa = PBXFileReference; includeInIndex = 1; name = Assets; path = SEPhotoPuzzle/Assets/Assets; sourceTree = "<group>"; };
-		1985FE63110D69C8FDC2963A6824F21C /* SEPhotoPuzzle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SEPhotoPuzzle.framework; path = SEPhotoPuzzle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		137BFADD0006C55655C7A9D3288DE6F6 /* Assets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = Assets; path = SEPhotoPuzzle/Assets/Assets; sourceTree = "<group>"; };
+		1985FE63110D69C8FDC2963A6824F21C /* SEPhotoPuzzle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SEPhotoPuzzle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C55A6CCED4A8E3CE5B2AC1C4110FDF8 /* MBProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		1EB965B8927448D4ED51D205E45CC444 /* Pods-SEPhotoPuzzle_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SEPhotoPuzzle_Example.modulemap"; sourceTree = "<group>"; };
 		253CC80D72424357A3AF3D68D79CABF0 /* MeituImageEditView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MeituImageEditView.m; sourceTree = "<group>"; };
 		29056ABD1A7B8FE6608757142B990867 /* SEPhotoPuzzle-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SEPhotoPuzzle-prefix.pch"; sourceTree = "<group>"; };
 		2A30E449C55BB49746B250FDBA2E04D1 /* MeituEditStyleViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MeituEditStyleViewController.m; sourceTree = "<group>"; };
-		3124B9B6385F244E7D6D3813C82CC010 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		3124B9B6385F244E7D6D3813C82CC010 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3E627886CE0E177C48AF5162A95EC28A /* se_back@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "se_back@2x.png"; path = "SEPhotoAlbum/Assets/se_back@2x.png"; sourceTree = "<group>"; };
 		459B18E2D0135D7C98A5AB8E5D42A6C9 /* LoadingViewManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LoadingViewManager.m; sourceTree = "<group>"; };
@@ -123,7 +124,7 @@
 		5822E61C1E64901FF03422EB65BA5427 /* SEPhotoPuzzle-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SEPhotoPuzzle-dummy.m"; sourceTree = "<group>"; };
 		582E679D518EF72E338217D44094D6DA /* UIColor+Help.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Help.m"; sourceTree = "<group>"; };
 		5B4C77639D75ECC9D1DC2CD6CFDC7F33 /* Pods-SEPhotoPuzzle_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SEPhotoPuzzle_Example-frameworks.sh"; sourceTree = "<group>"; };
-		5B94287A8A56F8AC194749C5187EF12F /* Pods_SEPhotoPuzzle_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SEPhotoPuzzle_Example.framework; path = "Pods-SEPhotoPuzzle_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B94287A8A56F8AC194749C5187EF12F /* Pods_SEPhotoPuzzle_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SEPhotoPuzzle_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BD4499649790060AA52A048F767C235 /* se_camera@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "se_camera@2x.png"; path = "SEPhotoAlbum/Assets/se_camera@2x.png"; sourceTree = "<group>"; };
 		60ED588F54AD144A4554DA9034550BD8 /* SEPhotoPuzzleAPI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEPhotoPuzzleAPI.m; path = SEPhotoPuzzle/Classes/SEPhotoPuzzleAPI.m; sourceTree = "<group>"; };
 		60F3826F2CAA44564F8BE8A4ACB4F717 /* SEPhotoPuzzle-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SEPhotoPuzzle-Info.plist"; sourceTree = "<group>"; };
@@ -131,7 +132,7 @@
 		63F911356860530169C808F851737A10 /* ResourceBundle-SEPhotoAlbum-SEPhotoAlbum-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-SEPhotoAlbum-SEPhotoAlbum-Info.plist"; sourceTree = "<group>"; };
 		694B7590A50091EEB7FDBAE53705C16F /* MBProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
 		6CA12AE0781AEBB972904F9E63783353 /* Pods-SEPhotoPuzzle_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SEPhotoPuzzle_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		7C3A73329636D0EE213F8FB5C822C8EE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		7C3A73329636D0EE213F8FB5C822C8EE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		7F25F12A06280EB28BBCDEED20CE64E2 /* SEPhotoPuzzle.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SEPhotoPuzzle.modulemap; sourceTree = "<group>"; };
 		8023EBAE50DE6F279D944F53863FA87E /* SharedImageViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SharedImageViewController.h; sourceTree = "<group>"; };
 		829A650AC7519937F8F9D7618F242B04 /* se_cancel@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "se_cancel@2x.png"; path = "SEPhotoAlbum/Assets/se_cancel@2x.png"; sourceTree = "<group>"; };
@@ -139,13 +140,13 @@
 		8423BC800D9F80143156E1A88818212E /* SEPhotoPuzzle-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SEPhotoPuzzle-umbrella.h"; sourceTree = "<group>"; };
 		9636193C102AD2D11716D03C3B2F65B7 /* GLMeituSpliceContentView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GLMeituSpliceContentView.h; sourceTree = "<group>"; };
 		99F8983573CA8D50EA6B87E204373EAE /* GLMeituContentView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GLMeituContentView.h; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A04E86A0946FB788B7A039ACCBA16E8B /* Pods-SEPhotoPuzzle_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SEPhotoPuzzle_Example.release.xcconfig"; sourceTree = "<group>"; };
 		A077E84126F54BEB55C4963152B00FD8 /* SUIModalActionSheet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SUIModalActionSheet.h; sourceTree = "<group>"; };
 		ADF5B314440630B2531EF12A875EB2A4 /* Pods-SEPhotoPuzzle_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SEPhotoPuzzle_Example-resources.sh"; sourceTree = "<group>"; };
 		AFBFD1C8B89AB7B29AB6BCC4A95B836C /* SEPhotoAlbum.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SEPhotoAlbum.framework; path = SEPhotoAlbum/Products/SEPhotoAlbum.framework; sourceTree = "<group>"; };
 		B44E914B39EDCCD93704EA6822CF8B99 /* GLStoryboardSelectView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GLStoryboardSelectView.h; sourceTree = "<group>"; };
-		B8F569650B247B665FD8BF4180C3154D /* Strings */ = {isa = PBXFileReference; includeInIndex = 1; name = Strings; path = SEPhotoPuzzle/Assets/Strings; sourceTree = "<group>"; };
+		B8F569650B247B665FD8BF4180C3154D /* Strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = Strings; path = SEPhotoPuzzle/Assets/Strings; sourceTree = "<group>"; };
 		BF1E3613875DCEBD7C02BBD9634B98D3 /* se_confirm@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "se_confirm@2x.png"; path = "SEPhotoAlbum/Assets/se_confirm@2x.png"; sourceTree = "<group>"; };
 		C1E89D3ABA0673832259CA478C9E7FAC /* Pods-SEPhotoPuzzle_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SEPhotoPuzzle_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		C20FECE9D49829E3D4495840AD4885E2 /* se_confirm@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "se_confirm@3x.png"; path = "SEPhotoAlbum/Assets/se_confirm@3x.png"; sourceTree = "<group>"; };
@@ -154,21 +155,21 @@
 		CD442586D1DB28D3439B3DF5E45BD45A /* GLMeituSpliceContentView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GLMeituSpliceContentView.m; sourceTree = "<group>"; };
 		CD552FD9E97E30C2FA1E9D92CAB2D8F7 /* SEPhotoPuzzle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SEPhotoPuzzle.release.xcconfig; sourceTree = "<group>"; };
 		D011A12AE986646C691E6B2007F0E430 /* GLMeituContentView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GLMeituContentView.m; sourceTree = "<group>"; };
-		D0190DBEAFDAD1012AF4684A4956E397 /* SEPhotoPuzzle.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = SEPhotoPuzzle.bundle; path = "SEPhotoPuzzle-SEPhotoPuzzle.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0190DBEAFDAD1012AF4684A4956E397 /* SEPhotoPuzzle.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SEPhotoPuzzle.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		D03EE0D8EF26D4B70A7DCFDDBD5710E4 /* MeituEditStyleViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MeituEditStyleViewController.h; sourceTree = "<group>"; };
 		D0BCE376BF9E726D9BFACDF0B3CF733B /* SEPhotoPuzzleAPI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEPhotoPuzzleAPI.h; path = SEPhotoPuzzle/Classes/SEPhotoPuzzleAPI.h; sourceTree = "<group>"; };
 		D157F22F17E8DC27BF8EFDEDB50614A1 /* se_back@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "se_back@3x.png"; path = "SEPhotoAlbum/Assets/se_back@3x.png"; sourceTree = "<group>"; };
 		D664A09D915604001E4A629E5CFC01FC /* GLStoryboardSelectView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GLStoryboardSelectView.m; sourceTree = "<group>"; };
 		D6A7D3D480CD9977CC9774FC2475B4F2 /* se_select@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "se_select@2x.png"; path = "SEPhotoAlbum/Assets/se_select@2x.png"; sourceTree = "<group>"; };
 		D6D9B814C69AD47F2602F797A185E7CF /* se_select@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "se_select@3x.png"; path = "SEPhotoAlbum/Assets/se_select@3x.png"; sourceTree = "<group>"; };
-		D79B97435C0B7C261CB3C0F3E39C7119 /* SEPhotoPuzzle.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SEPhotoPuzzle.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D79B97435C0B7C261CB3C0F3E39C7119 /* SEPhotoPuzzle.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SEPhotoPuzzle.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		DB628C11E3BAD3244145505DF973207A /* Pods-SEPhotoPuzzle_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SEPhotoPuzzle_Example-Info.plist"; sourceTree = "<group>"; };
 		E2624D1B13AFB29F8F4BE39A3817CB82 /* ResourceBundle-SEPhotoPuzzle-SEPhotoPuzzle-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-SEPhotoPuzzle-SEPhotoPuzzle-Info.plist"; sourceTree = "<group>"; };
 		EFCFD70CAA452637D8843B0FFDDC34CC /* MeituImageEditView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MeituImageEditView.h; sourceTree = "<group>"; };
 		F22C675045FCDC66893FDEC6F70065BF /* LoadingViewManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LoadingViewManager.h; sourceTree = "<group>"; };
-		F4D35AE6323691C988384D35B43173C4 /* Plists */ = {isa = PBXFileReference; includeInIndex = 1; name = Plists; path = SEPhotoPuzzle/Assets/Plists; sourceTree = "<group>"; };
+		F4D35AE6323691C988384D35B43173C4 /* Plists */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = Plists; path = SEPhotoPuzzle/Assets/Plists; sourceTree = "<group>"; };
 		F8D79458CA39A6C3B26871131B4E89B4 /* UIButton+Help.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIButton+Help.h"; sourceTree = "<group>"; };
-		F948FF9E0F55FD08064F9549D3ECB3E7 /* SEPhotoAlbum.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = SEPhotoAlbum.bundle; path = "SEPhotoAlbum-SEPhotoAlbum.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F948FF9E0F55FD08064F9549D3ECB3E7 /* SEPhotoAlbum.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SEPhotoAlbum.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA2139F4C82165251A5193608E57CB8B /* Pods-SEPhotoPuzzle_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SEPhotoPuzzle_Example-umbrella.h"; sourceTree = "<group>"; };
 		FC29CE88D25F20C1712CF44D80B8EFFA /* se_cancel@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "se_cancel@3x.png"; path = "SEPhotoAlbum/Assets/se_cancel@3x.png"; sourceTree = "<group>"; };
 		FFF7CB1468B3A537217A5AF1A6D46489 /* SEPhotoAlbum.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SEPhotoAlbum.debug.xcconfig; sourceTree = "<group>"; };
@@ -214,7 +215,6 @@
 				D03EE0D8EF26D4B70A7DCFDDBD5710E4 /* MeituEditStyleViewController.h */,
 				2A30E449C55BB49746B250FDBA2E04D1 /* MeituEditStyleViewController.m */,
 			);
-			name = edit;
 			path = edit;
 			sourceTree = "<group>";
 		};
@@ -318,7 +318,6 @@
 				8023EBAE50DE6F279D944F53863FA87E /* SharedImageViewController.h */,
 				03E107A511DC8AA571B7C3F01694EF97 /* SharedImageViewController.m */,
 			);
-			name = preview;
 			path = preview;
 			sourceTree = "<group>";
 		};
@@ -416,7 +415,6 @@
 				AB4B18949C7D0413E6A3BF091429AAA8 /* Resources */,
 				302CCE8C6DA14682CC563B474D153BC0 /* Support Files */,
 			);
-			name = SEPhotoAlbum;
 			path = SEPhotoAlbum;
 			sourceTree = "<group>";
 		};
@@ -864,8 +862,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
