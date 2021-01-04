@@ -10,7 +10,7 @@
 #import "LoadingViewManager.h"
 @implementation SEPhotoPuzzleAPI
 
-+ (void)presentPhotoPuzzleWithImages:(NSArray <UIImage *>*)images superViewController:(UIViewController *)controller
++ (void)presentPhotoPuzzleWithImages:(NSArray <UIImage *>*)images superViewController:(UIViewController *)controller saveSuccess:(nonnull void (^)(BOOL isSuccess))saveSuccess
 {
     if (images.count < 2)
     {

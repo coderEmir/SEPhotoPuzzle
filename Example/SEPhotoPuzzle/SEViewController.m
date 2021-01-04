@@ -23,13 +23,10 @@
 
     [SEImageAlbumManager preventImageViewControllerWithSuperViewController:self maxSelectCount:5 isSelectedFinishDismiss:NO isCustomEdit:YES :^(UIViewController * _Nonnull controller, NSArray<UIImage *> * _Nonnull images) {
         
-        [SEPhotoPuzzleAPI presentPhotoPuzzleWithImages:images superViewController:controller];
-//        MeituEditStyleViewController *editController = [[MeituEditStyleViewController alloc] init];
-//        editController.images = images.copy;
-//        UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:editController];
-//
-//        navController.modalPresentationStyle = UIModalPresentationOverFullScreen;
-//        [controller presentViewController:navController animated:YES completion:nil];
+        [SEPhotoPuzzleAPI presentPhotoPuzzleWithImages:images superViewController:controller saveSuccess:^(BOOL isSuccess) {
+            
+        }];
+
     }];
     
 }

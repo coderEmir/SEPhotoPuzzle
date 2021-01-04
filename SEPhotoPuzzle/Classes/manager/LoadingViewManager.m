@@ -15,11 +15,10 @@ static int Tag_LoadingView  = 9999;
 
 - (void)removeHUDFromSuperView;
 
+@property (nonatomic,retain)MBProgressHUD *HUD;
 @end
 
 @implementation LoadingViewManager
-
-@synthesize HUD = _HUD;
 
 #pragma mark - Singleton
 

@@ -9,6 +9,8 @@
 #import <Foundation/Foundation.h>
 #import "MBProgressHUD.h"
 
+typedef void(^HandleBlock)(BOOL isSuccess);
+
 @class MBProgressHUD;
 
 #define k_networkfail_delay_time    2.5
@@ -18,7 +20,8 @@
 
 @interface LoadingViewManager : NSObject
 
-@property (nonatomic,retain)MBProgressHUD *HUD;
+
+@property (nonatomic ,copy) HandleBlock handleBlock;
 
 - (void)showHUDWithText:(NSString*)hudText inView:(UIView *)containerView duration:(float)duration;
 

@@ -145,17 +145,15 @@
 - (void)imageSavedToPhotosAlbum:(UIImage *)image didFinishSavingWithError:(NSError *)error contextInfo:(void *) contextInfo {
     
     NSString *message;
-    NSString *title;
     if (!error) {
-        title = @"恭喜";
         message = @"成功保存到相册";
     } else {
-        title = @"失败";
         message = [error description];
     }
     [[LoadingViewManager sharedInstance] removeLoadingView:self.view];
     [[LoadingViewManager sharedInstance] showHUDWithText:message inView:self.view duration:0.5f];
-
+    
+    [LoadingViewManager sharedInstance].handleBlock(!error);
 }
 
 
