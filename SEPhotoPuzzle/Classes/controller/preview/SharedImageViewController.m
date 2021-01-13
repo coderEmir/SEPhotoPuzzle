@@ -114,7 +114,7 @@
                                                                              delegate:nil
                                                                     cancelButtonTitle:D_LocalizedCardString(@"Button_Cancel")
                                                                destructiveButtonTitle:nil
-                                                                    otherButtonTitles:@"保存到相册",
+                                                                    otherButtonTitles:@"保存",
                                             @"再做一张", nil];
     [sendSelectSheet showInView:self.view];
     int buttonIndex = sendSelectSheet._buttonIndex;
@@ -136,8 +136,9 @@
     [self saveTapHandler];
 }
 -(void) saveTapHandler{
-    [[LoadingViewManager sharedInstance] showText:@"正在保存" inView:self.view];
-    UIImageWriteToSavedPhotosAlbum(self.image, self, @selector(imageSavedToPhotosAlbum: didFinishSavingWithError: contextInfo:), nil);
+//    [[LoadingViewManager sharedInstance] showText:@"正在保存" inView:self.view];
+    [LoadingViewManager sharedInstance].handleBlock(_image);
+//    UIImageWriteToSavedPhotosAlbum(self.image, self, @selector(imageSavedToPhotosAlbum: didFinishSavingWithError: contextInfo:), nil);
 }
 
 
@@ -146,14 +147,14 @@
     
     NSString *message;
     if (!error) {
-        message = @"成功保存到相册";
+        message = @"成功保存";
     } else {
         message = [error description];
     }
     [[LoadingViewManager sharedInstance] removeLoadingView:self.view];
     [[LoadingViewManager sharedInstance] showHUDWithText:message inView:self.view duration:0.5f];
     
-    [LoadingViewManager sharedInstance].handleBlock(!error);
+    [LoadingViewManager sharedInstance].handleBlock(_image);
 }
 
 

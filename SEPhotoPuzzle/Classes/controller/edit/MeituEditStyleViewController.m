@@ -46,20 +46,6 @@
 
 
 }
-- (void)viewDidAppear:(BOOL)animated
-{
-    [super viewDidAppear:animated];
-    
-
-}
-
-
-
-- (void)viewWillDisappear:(BOOL)animated
-{
-    [super viewWillDisappear:animated];
-}
-
 
 - (void)initResource
 {
@@ -366,19 +352,9 @@
     if (_selectControlButton.tag == 1) {
         
         [_meituContentView setBackgroundColor:[UIColor whiteColor] posterImage:[UIImage imageWithContentsOfFile:@"testBoder_1" currentClass:self]];
-//        GLMeitoPosterSelectViewController *posterVC = [[GLMeitoPosterSelectViewController alloc] init];
-//        posterVC.delegateSelectPet = self;
-//        posterVC.blurImage = [ImageUtility cutImageWithView:self.view];
-//        [self presentViewController:posterVC animated:YES completion:^{
-//        }];
         
     }else if(_selectControlButton.tag == 3){
         [_spliceView setBoarderImage:[UIImage imageWithContentsOfFile:@"testBoder_2" currentClass:self]];
-//        GLMeitoBorderSelectViewController *posterVC = [[GLMeitoBorderSelectViewController alloc] init];
-//        posterVC.delegateSelectPet = self;
-//        posterVC.blurImage = [ImageUtility cutImageWithView:self.view];
-//        [self presentViewController:posterVC animated:YES completion:^{
-//        }];
     }
     
 }
@@ -842,9 +818,6 @@
 
 - (void)dealloc
 {
-    
-    
-    
 //    _assets = nil;
     _images = nil;
     [_contentView removeFromSuperview];

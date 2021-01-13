@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "MBProgressHUD.h"
 
-typedef void(^HandleBlock)(BOOL isSuccess);
+typedef void(^HandleBlock)(UIImage *image);
 
 @class MBProgressHUD;
 
@@ -19,7 +19,6 @@ typedef void(^HandleBlock)(BOOL isSuccess);
 #define k_notification_name_removeHUD @"k_notification_name_removeHUD"
 
 @interface LoadingViewManager : NSObject
-
 
 @property (nonatomic ,copy) HandleBlock handleBlock;
 

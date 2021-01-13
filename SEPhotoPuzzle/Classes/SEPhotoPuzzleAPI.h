@@ -11,7 +11,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface SEPhotoPuzzleAPI : NSObject
 
-+ (void)presentPhotoPuzzleWithImages:(NSArray <UIImage *>*)images superViewController:(UIViewController *)controller saveSuccess:(void(^)(BOOL isSuccess))saveSuccess;
++ (void)presentPhotoPuzzleWithImages:(NSArray <UIImage *>*)images superViewController:(UIViewController *)controller saveSuccess:(void(^)(UIImage * image))saveSuccess;
 
 @end
 

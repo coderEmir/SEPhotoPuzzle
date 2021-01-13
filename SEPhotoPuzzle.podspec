@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SEPhotoPuzzle'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'A short description of SEPhotoPuzzle.'
 
 # This description is used to generate tags and improve search results.
@@ -34,13 +34,13 @@ TODO: Add long description of the pod here.
     'SEPhotoPuzzle' => ['SEPhotoPuzzle/Assets/*']
   }
   
-  if ENV['is_source']
-      s.source_files = 'SEPhotoPuzzle/Classes/**/*'
-  else
-        s.source_files = 'SEPhotoPuzzle/Classes/**/*'
+  #if ENV['is_source']
+  #    s.source_files = 'SEPhotoPuzzle/Classes/**/*'
+  #else
+  #      s.source_files = 'SEPhotoPuzzle/Classes/**/*'
       # s.vendored_frameworks = 'SEPhotoPuzzle/Products/SEPhotoPuzzle.framework'
-  end
-  
+  #end
+  s.source_files = 'SEPhotoPuzzle/Classes/**/*'
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
 
